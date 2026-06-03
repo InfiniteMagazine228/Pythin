@@ -1,0 +1,10 @@
+{
+  "name": "battle-royale-html",
+  "version": "1.0.0",
+  "description": "Battle Royale mini game with beautiful UI",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "author": "Ha",
+  "license": "MIT"
+}
