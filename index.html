@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Battle Royale HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu" class="menu">
+    <h1 class="title">🔥 Battle Royale 🔥</h1>
+    <button onclick="startGame()">Play</button>
+    <button onclick="openSettings()">Settings</button>
+    <button onclick="openInstructions()">Instructions</button>
+    <button onclick="openLanguage()">Language</button>
+    <button onclick="exitGame()">Exit</button>
+  </div>
+
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+  <div id="hud">
+    <div class="bar hp"><span id="hp">HP: 100</span></div>
+    <div class="bar ammo"><span id="ammo">Ammo: 0</span></div>
+    <div class="bar weapon"><span id="weapon">Weapon: None</span></div>
+  </div>
+
+  <div id="overlay" class="overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
